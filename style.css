@@ -6,8 +6,7 @@
   font-family: "Poppins", sans-serief;
 }
 
-body
-{
+body {
   background-color: black;
 }
 
@@ -51,7 +50,8 @@ nav button {
 }
 
 .text {
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
   height: calc(100% - 63px);
   display: flex;
   flex-direction: column;
@@ -64,145 +64,202 @@ nav button {
   padding: 0 32px;
 }
 
-.text> :first-child
-{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+.text > :first-child {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 1000;
   font-size: 60px;
   text-align: center;
 }
 
-.text> :nth-child(2)
-{
+.text > :nth-child(2) {
   font-weight: bolder;
   font-size: 24px;
   text-align: center;
 }
 
-.text> :nth-child(3)
-{
+.text > :nth-child(3) {
   font-weight: 400;
   font-size: 21px;
   text-align: center;
 }
 
-.line
-{
+.line {
   height: 7px;
-  background-color: rgba(229,9,20,1);
+  background-color: rgba(229, 9, 20, 1);
   border-radius: 9000px;
   position: relative;
 }
-.line ::before
-{
+.line ::before {
   position: absolute;
   top: -50px;
   left: 0;
   width: 100%;
   height: 7px;
   border-radius: 50%;
-  background-color: rgba(229,9,20,1);;
+  background-color: rgba(229, 9, 20, 1);
 }
 
-
-.btn
-{
+.btn {
   padding: 4px 10px;
   font-weight: bold;
   background-color: white;
   padding: 4px 25px;
-   font-size: 20px;
-   border-radius: 5px;
-   background-color: rgba(23,23,23,0.2);
-   color: white;
-   border: 1px solid white;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgba(23, 23, 23, 0.2);
+  color: white;
+  border: 1px solid white;
 }
 
-.red1
-{
-   background-color: red;
-   color: white;
-   padding: 4px 25px;
-   font-size: 20px;
-   border-radius: 5px;
-   cursor: pointer;
-   border: 0;
+.red1 {
+  background-color: red;
+  color: white;
+  padding: 4px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
 }
 
-.main input
-{
+.main input {
   padding: 20px;
-   font-size: 20px;
-   border-radius: 5px;
-   background-color: rgba(23,23,23,0.7);
-   width: 400px;
-   border: 1px solid white;
-   color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgba(23, 23, 23, 0.7);
+  width: 400px;
+  border: 1px solid white;
+  color: white;
 }
 
-
-.red
-{
+.red {
   background-color: red;
   color: white;
   padding: 20px;
-   font-size: 25px;
-   border-radius: 10px;
-   width: 200px;
-   cursor: pointer;
-   border: 0;
-  }
+  font-size: 25px;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  border: 0;
+}
 
-  .one
-  {
-    margin: 70px;
-  }
+.one {
+  margin: 70px;
+}
 
-  .cards
-  {
-    display: flex;
-  }
+.cards {
+  display: flex;
+}
 
-  .inboxes
-  {
-    width: 25%;
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    background-color: rgb(179, 16, 124);
-    margin: 15px;
-    line-height: 50px;
-    border-radius: 20px;
-    padding: 20px;
-    flex-direction: column;
+.inboxes {
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: rgb(179, 16, 124);
+  margin: 15px;
+  line-height: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  flex-direction: column;
+}
 
-  }
+.inboxes2 {
+  width: 25%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: rgb(78, 80, 176);
+  margin: 15px;
+  line-height: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  flex-direction: column;
+}
 
-  .inboxes a
-  {
-    color: white;
-    text-decoration: none;
-  }
+.inboxes a {
+  color: white;
+  text-decoration: none;
+}
+.inboxes2 a {
+  color: white;
+  text-decoration: none;
+}
 
-   p
-  {
-    line-height: 45px;
-    font-size: 25px;
-    height: 150px;
-  }
+p {
+  line-height: 45px;
+  font-size: 25px;
+  height: 150px;
+}
 
-  .inboxes :hover
-  {
-    z-index: 100;
-  }
+.inboxes :hover {
+  z-index: 100;
+}
 
-  .two
-  {
-    margin: 70px;
-    color: white;
-  }
+.two {
+  margin: 70px;
+  color: white;
+  padding: 35px;
+}
 
-  .red1 :hover
-  {
-      opacity: 75%;
-  }
+.red1 :hover {
+  opacity: 75%;
+}
+
+.sbox {
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 24px;
+  cursor: pointer;
+  width: 900px;
+  margin: 15px;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sbox :hover {
+  transition: all 1s ease-out;
+  background-color: #414141;
+}
+
+.end {
+  margin: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.end a {
+  display: flex;
+  flex-direction: column;
+  color: rgb(209, 208, 208);
+  line-height: 30px;
+}
+
+.endq {
+  color: white;
+  margin: 70px;
+}
+
+.footbefore {
+  margin: 90px;
+}
+
+.footbefore input {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgba(23, 23, 23, 0.7);
+  width: 750px;
+  border: 1px solid white;
+  color: white;
+  margin: 5px;
+}
+
+.i1 {
+  margin-top: 50px;
+  float: right;
+}
+.i2 {
+  margin-top: 10px;
+  float: right;
+}
