@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   padding: 0;
@@ -135,7 +135,7 @@ nav button {
   background-color: red;
   color: white;
   padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 10px;
   width: 200px;
   cursor: pointer;
@@ -155,7 +155,7 @@ nav button {
   text-decoration: none;
   color: white;
   display: inline-block;
-  background-color: rgb(179, 16, 124);
+  background-color: rgba(179, 16, 125, 0.64);
   margin: 15px;
   line-height: 50px;
   border-radius: 20px;
@@ -168,7 +168,7 @@ nav button {
   text-decoration: none;
   color: white;
   display: inline-block;
-  background-color: rgb(78, 80, 176);
+  background-color: rgba(43, 45, 193, 0.533);
   margin: 15px;
   line-height: 50px;
   border-radius: 20px;
@@ -256,10 +256,18 @@ p {
 }
 
 .i1 {
-  margin-top: 50px;
+  margin-top: 150px;
   float: right;
 }
 .i2 {
-  margin-top: 10px;
+  margin-top: 90px;
   float: right;
+}
+
+.carddetails p {
+  font-size: 18px;
+}
+
+.carddetails {
+  height: 80px;
 }
